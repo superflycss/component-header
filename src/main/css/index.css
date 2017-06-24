@@ -1,0 +1,28 @@
+/** @define component  */
+/*! | superflycss/component-site |
+    | MIT License                |
+    | https://github.com/superflycss/component-header/blob/master/LICENSE.md */
+
+:root {
+  --Header-height: 40px;
+  --Header-width: 100%;
+  --Header-background-color: transparent;
+  --Header-padding: 1rem 1.5rem;
+
+  --Header {
+    display: flex;
+    height: var(--Header-height);
+    width: var(--Header-width);
+    background-color: var(--Header-background-color);
+    padding: var(--Header-padding);
+  }
+}
+
+.Header {
+  @apply(--Header);
+}
+
+.Header--shadow {
+  @apply(--Header);
+  box-shadow: 0 0 0.5rem rgba(0,0,0,.1);
+}
