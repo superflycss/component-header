@@ -11,6 +11,7 @@
   --Header-padding-left: 1rem;
   --Header-padding-right: 1rem;
   --Header-margin-bottom: 3rem;
+  --Header-text-color: inherit;
 
   --Header {
     display: flex;
@@ -20,6 +21,7 @@
     padding-right: var(--Header-padding-right);
     width: var(--Header-width);
     background-color: var(--Header-background-color);
+    color: var(--Header-text-color);
   }
 }
 
