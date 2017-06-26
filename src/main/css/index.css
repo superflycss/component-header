@@ -72,16 +72,16 @@
 
   --Header_link_onHover-text-decoration: none;
   --Header_link_onHover-text-color: var(--color-link);
-  --Header_link_onHover-border-color: var(--Header_link-text-color);
+  --Header_link_onHover-border-color: currentColor;
   --Header_link_onHover-border-width: 3px;
 
   --Header_link_onActive-text-decoration: none;
-  --Header_link_onActive-text-color: var(--color-link);
+  --Header_link_onActive-text-color: var(--Header_link-text-color);
   --Header_link_onActive-border-color: var(--Header_link-text-color);
   --Header_link_onActive-border-width: 3px;
 
   --Header_link_onVisited-text-decoration: none;
-  --Header_link_onVisited-text-color: var(--color-link);
+  --Header_link_onVisited-text-color: var(--Header_link-text-color);
   --Header_link_onVisited-border-color: var(--Header_link-text-color);
   --Header_link_onVisited-border-width: 3px;
 
@@ -112,21 +112,21 @@
 
 .Header_link:hover {
   text-decoration: var(--Header_link_onHover-text-decoration);
-  color: darken(var(--Header_link_onHover-text-color), 30%);
-  border-color: darken(var(--Header_link_onHover-border-color), 30%);
+  color: var(--Header_link_onHover-text-color);
+  border-color: var(--Header_link_onHover-border-color);
   border-width: var(--Header_link_onHover-border-width);
 }
 
 .Header_link:visited {
   text-decoration: var(--Header_link_onVisited-text-decoration);
-  color: darken(var(--Header_link_onVisited-text-color), 30%);
-  border-color: darken(var(--Header_link_onVisited-border-color), 30%);
+  color: var(--Header_link_onVisited-text-color);
+  border-color: var(--Header_link_onVisited-border-color);
   border-width: var(--Header_link_onHover-border-width);
 }
 
 .Header_link:active {
   text-decoration: var(--Header_link_onActive-text-decoration);
-  color: darken(var(--Header_link_onActive-text-color), 30%);
-  border-color: darken(var(--Header_link_onActive-border-color), 30%);
+  color: var(--Header_link_onActive-text-color);
+  border-color: var(--Header_link_onActive-border-color);
   border-width: var(--Header_link_onHover-border-width);
 }
