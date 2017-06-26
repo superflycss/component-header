@@ -1,7 +1,10 @@
 /** @define component  */
-/*! | superflycss/component-site |
+
+/*! | superflycss/component-header |
     | MIT License                |
     | https://github.com/superflycss/component-header/blob/master/LICENSE.md */
+
+@import "@superflycss/variables-colors";
 
 :root {
   --Header-width: 100%;
@@ -11,7 +14,6 @@
   --Header-padding-left: 1rem;
   --Header-padding-right: 1rem;
   --Header-margin-bottom: 3rem;
-  --Header-text-color: inherit;
 
   --Header {
     display: flex;
@@ -21,7 +23,6 @@
     padding-right: var(--Header-padding-right);
     width: var(--Header-width);
     background-color: var(--Header-background-color);
-    color: var(--Header-text-color);
   }
 }
 
@@ -40,10 +41,72 @@
   @apply(--Header);
   box-shadow: 0 0 0.5rem rgba(0,0,0,.1);
 }
+
 .Header--shadow-column {
   @apply(--Header);
   flex-direction: column;
   align-items: center;
   text-align: center;
   box-shadow: 0 0 0.5rem rgba(0,0,0,.1);
+}
+
+
+:root {
+  --Header_link-text-color: var(--color-link);
+  --Header_link-text-decoration: none;
+  --Header_link-font-size: 1.5rem;
+  --Header_link-font-family: sans-serif;
+  --Header_link-font-weight: 500;
+  --Header_link-display: inline-block;
+  --Header_link-padding-left: 1rem;
+  --Header_link-padding-right: 1rem;
+  --Header_link-margin-bottom: 3rem;
+  --Header_link-padding-left: 5rem;
+  --Header_link-padding-right: 5rem;
+  --Header_link-padding-top: 0.5rem;
+  --Header_link-padding-bottom: 0.5rem;
+  --Header_link-border-width: 3px;
+  --Header_link-border-color: var(--Header_link-text-color);
+  --Header_link-border-radius: 4px;
+
+  --Header_link {
+    text-color: var(--Header_link-text-color);
+    text-decoration: var(--Header_link-text-decoration);
+    font-size: var(--Header_link-font-size);
+    font-family: var(--Header_link-font-family);
+    font-weight: var(--Header_link-font-weight);
+    display: var(--Header_link-display);
+    padding-left: var(--Header_link-padding-left);
+    padding-right: var(--Header_link-padding-right);
+    margin-bottom: var(--Header_link-margin-bottom);
+    padding-left: var(--Header_link-padding-left);
+    padding-right: var(--Header_link-padding-right);
+    padding-top: var(--Header_link-padding-top);
+    padding-bottom: var(--Header_link-padding-bottom);
+    border-width: var(--Header_link-border-width);
+    border-color: var(--Header_link-border-color);
+    border-radius: var(--Header_link-border-radius);
+  }
+}
+
+.Header_link {
+  @apply(--Header_link);
+}
+
+.Header_link:hover {
+  text-decoration: var(--Header_link-text-decoration);
+  text-color: darken(var(--Header_link-text-color), 10%);
+  border-color: darken(var(--Header_link-border-color), 10%);
+}
+
+.Header_link:visited {
+  text-decoration: var(--Header_link-text-decoration);
+  text-color: darken(var(--Header_link-text-color), 10%);
+  border-color: darken(var(--Header_link-border-color), 10%);
+}
+
+.Header_link:active {
+  text-decoration: var(--Header_link-text-decoration);
+  text-color: darken(var(--Header_link-text-color), 10%);
+  border-color: darken(var(--Header_link-border-color), 10%);
 }
