@@ -70,7 +70,7 @@
   --Header_link-border-radius: 4px;
 
   --Header_link {
-    text-color: var(--Header_link-text-color);
+    color: var(--Header_link-text-color);
     text-decoration: var(--Header_link-text-decoration);
     font-size: var(--Header_link-font-size);
     font-family: var(--Header_link-font-family);
