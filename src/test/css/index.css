@@ -1,4 +1,6 @@
-@import "../../main/css/index.css";
 @import "@superflycss/foundation";
 @import "@superflycss/utilities-layout";
 @import "@superflycss/utilities-colors";
+@import "@superflycss/component-display";
+@import "@superflycss/component-body";
+@import "../../main/css/index.css";

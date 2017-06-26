@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/component-header",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Header component",
   "main": "src/main/css/index.css",
   "scripts": {
@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/superflycss/component-header#readme",
   "devDependencies": {
+    "@superflycss/component-body": "^1.0.0",
+    "@superflycss/component-display": "^1.0.1",
     "@superflycss/foundation": "^1.0.0",
     "@superflycss/task-build": "^1.0.5",
     "@superflycss/task-clean": "^1.0.0",

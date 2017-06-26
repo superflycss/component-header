@@ -66,8 +66,24 @@
   --Header_link-padding-top: 0.5rem;
   --Header_link-padding-bottom: 0.5rem;
   --Header_link-border-width: 3px;
+  --Header_link-border-style: solid;
   --Header_link-border-color: var(--Header_link-text-color);
   --Header_link-border-radius: 4px;
+
+  --Header_link_onHover-text-decoration: none;
+  --Header_link_onHover-text-color: var(--color-link);
+  --Header_link_onHover-border-color: var(--Header_link-text-color);
+  --Header_link_onHover-border-width: 3px;
+
+  --Header_link_onActive-text-decoration: none;
+  --Header_link_onActive-text-color: var(--color-link);
+  --Header_link_onActive-border-color: var(--Header_link-text-color);
+  --Header_link_onActive-border-width: 3px;
+
+  --Header_link_onVisited-text-decoration: none;
+  --Header_link_onVisited-text-color: var(--color-link);
+  --Header_link_onVisited-border-color: var(--Header_link-text-color);
+  --Header_link_onVisited-border-width: 3px;
 
   --Header_link {
     color: var(--Header_link-text-color);
@@ -84,6 +100,7 @@
     padding-top: var(--Header_link-padding-top);
     padding-bottom: var(--Header_link-padding-bottom);
     border-width: var(--Header_link-border-width);
+    border-style: var(--Header_link-border-style);
     border-color: var(--Header_link-border-color);
     border-radius: var(--Header_link-border-radius);
   }
@@ -94,19 +111,22 @@
 }
 
 .Header_link:hover {
-  text-decoration: var(--Header_link-text-decoration);
-  text-color: darken(var(--Header_link-text-color), 10%);
-  border-color: darken(var(--Header_link-border-color), 10%);
+  text-decoration: var(--Header_link_onHover-text-decoration);
+  color: darken(var(--Header_link_onHover-text-color), 30%);
+  border-color: darken(var(--Header_link_onHover-border-color), 30%);
+  border-width: var(--Header_link_onHover-border-width);
 }
 
 .Header_link:visited {
-  text-decoration: var(--Header_link-text-decoration);
-  text-color: darken(var(--Header_link-text-color), 10%);
-  border-color: darken(var(--Header_link-border-color), 10%);
+  text-decoration: var(--Header_link_onVisited-text-decoration);
+  color: darken(var(--Header_link_onVisited-text-color), 30%);
+  border-color: darken(var(--Header_link_onVisited-border-color), 30%);
+  border-width: var(--Header_link_onHover-border-width);
 }
 
 .Header_link:active {
-  text-decoration: var(--Header_link-text-decoration);
-  text-color: darken(var(--Header_link-text-color), 10%);
-  border-color: darken(var(--Header_link-border-color), 10%);
+  text-decoration: var(--Header_link_onActive-text-decoration);
+  color: darken(var(--Header_link_onActive-text-color), 30%);
+  border-color: darken(var(--Header_link_onActive-border-color), 30%);
+  border-width: var(--Header_link_onHover-border-width);
 }
