@@ -5,6 +5,7 @@
     | https://github.com/superflycss/component-header/blob/master/LICENSE.md */
 
 @import "@superflycss/variables-colors";
+@import "@superflycss/variables-dimension";
 
 :root {
   --Header-width: 100%;
@@ -129,4 +130,10 @@
   color: var(--Header_link_onActive-text-color);
   border-color: var(--Header_link_onActive-border-color);
   border-width: var(--Header_link_onHover-border-width);
+}
+
+.u-sticky-header {
+    position: fixed !important;
+    z-index: var(--zindex-sticky) !important;
+    top: 0px;
 }
