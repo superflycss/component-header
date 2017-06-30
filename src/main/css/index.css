@@ -6,11 +6,11 @@
 
 @import "@superflycss/variables-colors";
 @import "@superflycss/variables-dimension";
- 
+
 :root {
   --Header-width: 100%;
   --Header-background-color: transparent;
-  --Header-padding-top: 2rem;
+  --Header-padding-top: 0rem;
   --Header-padding-bottom: 2rem;
   --Header-padding-left: 1rem;
   --Header-padding-right: 1rem;
