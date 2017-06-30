@@ -1,6 +1,38 @@
 @import "@superflycss/foundation";
+@import "../../main/css/index.css";
 @import "@superflycss/utilities-layout";
 @import "@superflycss/utilities-colors";
 @import "@superflycss/component-display";
 @import "@superflycss/component-body";
-@import "../../main/css/index.css";
+
+
+/** Define a color palette */
+:root {
+  --Palette-background-color--Header: #F2F2F2;
+  --Palette-border-color:  #1AC0BA;
+  --Palette-text-color: #1AC0BA;
+  --Palette_onHover-text-color: #e91eaa;
+  --Palette_onHover-border-color: #e91eaa;
+  --Palette-background-color--Test: #CDDC38;
+}
+
+.u-test-background-color {
+    background-color: var(--Palette-background-color--Test);
+}
+
+:root {
+  --Header-background-color: var(--Palette-background-color--Header);
+  --Header-padding-bottom: 3rem;
+
+  --Header_link-padding-left: 5rem;
+  --Header_link-padding-right: 5rem;
+  --Header_link-padding-top: 0.5rem;
+  --Header_link-padding-bottom: 0.5rem;
+  --Header_link-border-radius: 4px;
+  --Header_link-border-color: var(--Palette-border-color);
+  --Header_link-text-color: var(--Palette-text-color);
+
+  --Header_link_onHover-text-decoration: none;
+  --Header_link_onHover-text-color: var(--Palette_onHover-text-color);
+  --Header_link_onHover-border-color: var(--Palette_onHover-border-color);
+}
