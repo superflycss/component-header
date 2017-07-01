@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/component-header",
-  "version": "1.1.16",
+  "version": "1.1.17",
   "description": "Header component",
   "main": "src/main/css/index.css",
   "scripts": {
@@ -27,13 +27,14 @@
   "homepage": "https://github.com/superflycss/component-header#readme",
   "devDependencies": {
     "@superflycss/component-body": "^1.0.1",
-    "@superflycss/component-display": "^1.0.1",
+    "@superflycss/component-display": "^1.0.2",
     "@superflycss/foundation": "^1.0.0",
     "@superflycss/task-build": "^1.0.5",
     "@superflycss/task-clean": "^1.0.2",
     "@superflycss/task-deploy": "^2.0.4",
     "@superflycss/task-test": "^1.0.1",
-    "@superflycss/utilities-colors": "^2.0.7",
+    "@superflycss/utilities-colors": "^2.0.9",
+    "@superflycss/utilities-fonts": "^3.0.2",
     "@superflycss/utilities-layout": "^2.0.5",
     "gulp": "^3.9.1",
     "npm-check-updates": "^2.12.1"
