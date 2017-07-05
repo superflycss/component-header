@@ -6,23 +6,27 @@
 @import "@superflycss/component-display";
 @import "@superflycss/component-body";
 
-
 /** Define a color palette */
 :root {
-  --Palette-background-color--Header: #F2F2F2;
-  --Palette-border-color:  #1AC0BA;
-  --Palette-text-color: #1AC0BA;
-  --Palette_onHover-text-color: #e91eaa;
-  --Palette_onHover-border-color: #e91eaa;
-  --Palette-background-color--Test: #CDDC38;
+  /** Header */
+  --Palette--Header-background-color: #F2F2F2;
+  --Palette--Header_link-text-color: #1AC0BA;
+  --Palette--Header_link-border-color: #1AC0BA;
+  --Palette--Header_link_onHover-text-color: #e91eaa;
+  --Palette--Header_link_onHover-border-color: #e91eaa;
+  --Palette--Header_link_onVisited-text-color: #13e0ff;
+  --Palette--Header_link_onVisited-border-color: #13e0ff;
+
+  /** Test */
+  --Palette--Test-background-color: #CDDC38;
 }
 
 .u-test-background-color {
-    background-color: var(--Palette-background-color--Test);
+    background-color: var(--Palette--Test-background-color);
 }
 
 :root {
-  --Header-background-color: var(--Palette-background-color--Header);
+  --Header-background-color: var(--Palette--Header-background-color);
   --Header-padding-bottom: 3rem;
 
   --Header_link-padding-left: 5rem;
@@ -30,10 +34,12 @@
   --Header_link-padding-top: 0.5rem;
   --Header_link-padding-bottom: 0.5rem;
   --Header_link-border-radius: 4px;
-  --Header_link-border-color: var(--Palette-border-color);
-  --Header_link-text-color: var(--Palette-text-color);
+  --Header_link-border-color: var(--Palette--Header_link-border-color);
+  --Header_link-text-color: var(--Palette--Header_link-text-color);
 
   --Header_link_onHover-text-decoration: none;
-  --Header_link_onHover-text-color: var(--Palette_onHover-text-color);
-  --Header_link_onHover-border-color: var(--Palette_onHover-border-color);
+  --Header_link_onHover-text-color: var(--Palette--Header_link_onHover-text-color);
+  --Header_link_onHover-border-color: var(--Palette--Header_link_onHover-border-color);
+  --Header_link_onVisited-text-color: var(--Palette--Header_link_onVisited-text-color);
+  --Header_link_onVisited-border-color: var(--Palette--Header_link_onVisited-border-color);
 }

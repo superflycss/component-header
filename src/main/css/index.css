@@ -14,7 +14,6 @@
   --Header-padding-left: 1rem;
   --Header-padding-right: 1rem;
   --Header-background-color: transparent;
-  --Header-margin-bottom: 3rem;
 
   --Header {
     display: flex;
@@ -122,14 +121,14 @@
   text-decoration: var(--Header_link_onVisited-text-decoration);
   color: var(--Header_link_onVisited-text-color);
   border-color: var(--Header_link_onVisited-border-color);
-  border-width: var(--Header_link_onHover-border-width);
+  border-width: var(--Header_link_onVisited-border-width);
 }
 
 .Header_link:active {
   text-decoration: var(--Header_link_onActive-text-decoration);
   color: var(--Header_link_onActive-text-color);
   border-color: var(--Header_link_onActive-border-color);
-  border-width: var(--Header_link_onHover-border-width);
+  border-width: var(--Header_link_onActive-border-width);
 }
 
 .u-sticky-header {
