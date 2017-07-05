@@ -83,7 +83,7 @@
   --Header_link_onVisited-text-decoration: none;
   --Header_link_onVisited-text-color: var(--Header_link-text-color);
   --Header_link_onVisited-border-color: var(--Header_link-text-color);
-  --Header_link_onVisited-border-width: 3px;
+  --Header_link_onVisited-border-width: var(--Header_link-border-width);
 
   --Header_link {
     color: var(--Header_link-text-color);
