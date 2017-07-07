@@ -110,13 +110,6 @@
   @apply(--Header_link);
 }
 
-.Header_link:hover {
-  text-decoration: var(--Header_link_onHover-text-decoration);
-  color: var(--Header_link_onHover-text-color);
-  border-color: var(--Header_link_onHover-border-color);
-  border-width: var(--Header_link_onHover-border-width);
-}
-
 .Header_link:visited {
   text-decoration: var(--Header_link_onVisited-text-decoration);
   color: var(--Header_link_onVisited-text-color);
@@ -129,6 +122,13 @@
   color: var(--Header_link_onActive-text-color);
   border-color: var(--Header_link_onActive-border-color);
   border-width: var(--Header_link_onActive-border-width);
+}
+
+.Header_link:hover {
+  text-decoration: var(--Header_link_onHover-text-decoration);
+  color: var(--Header_link_onHover-text-color);
+  border-color: var(--Header_link_onHover-border-color);
+  border-width: var(--Header_link_onHover-border-width);
 }
 
 .u-sticky-header {
