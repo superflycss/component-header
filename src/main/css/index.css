@@ -117,18 +117,18 @@
   border-width: var(--Header_link_onVisited-border-width);
 }
 
-.Header_link:active {
-  text-decoration: var(--Header_link_onActive-text-decoration);
-  color: var(--Header_link_onActive-text-color);
-  border-color: var(--Header_link_onActive-border-color);
-  border-width: var(--Header_link_onActive-border-width);
-}
-
 .Header_link:hover {
   text-decoration: var(--Header_link_onHover-text-decoration);
   color: var(--Header_link_onHover-text-color);
   border-color: var(--Header_link_onHover-border-color);
   border-width: var(--Header_link_onHover-border-width);
+}
+
+.Header_link:active {
+  text-decoration: var(--Header_link_onActive-text-decoration);
+  color: var(--Header_link_onActive-text-color);
+  border-color: var(--Header_link_onActive-border-color);
+  border-width: var(--Header_link_onActive-border-width);
 }
 
 .u-sticky-header {
