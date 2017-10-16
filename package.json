@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/component-header",
-  "version": "1.2.27",
+  "version": "1.2.28",
   "description": "Header component",
   "main": "src/main/css/index.css",
   "scripts": {

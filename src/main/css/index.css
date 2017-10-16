@@ -60,6 +60,7 @@
   --Header_link-display: inline-block;
   --Header_link-padding-left: 1rem;
   --Header_link-padding-right: 1rem;
+  --Header_link-margin-top: 1rem;
   --Header_link-margin-bottom: 3rem;
   --Header_link-padding-left: 5rem;
   --Header_link-padding-right: 5rem;
@@ -94,6 +95,7 @@
     display: var(--Header_link-display);
     padding-left: var(--Header_link-padding-left);
     padding-right: var(--Header_link-padding-right);
+    margin-top: var(--Header_link-margin-top);
     margin-bottom: var(--Header_link-margin-bottom);
     padding-left: var(--Header_link-padding-left);
     padding-right: var(--Header_link-padding-right);
