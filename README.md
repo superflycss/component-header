@@ -1,5 +1,7 @@
 # Header component
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/superflycss/component-header.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/superflycss/component-header.svg?branch=master)](https://travis-ci.org/superflycss/component-header)
 
 ## Installation
