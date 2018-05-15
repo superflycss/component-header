@@ -1,6 +1,7 @@
 @import "@superflycss/foundation";
 @import "../../main/css/index.css";
-@import "@superflycss/utilities-fonts";
+@import "@superflycss/utilities-format";
+@import "@superflycss/utilities-fonts/lato";
 @import "@superflycss/utilities-layout";
 @import "@superflycss/utilities-colors";
 @import "@superflycss/component-display";
