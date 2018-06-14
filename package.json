@@ -25,7 +25,7 @@
   "devDependencies": {
     "@superflycss/component-body": "^1.0.1",
     "@superflycss/component-display": "^1.0.2",
-    "@superflycss/component-test": "^2.0.32",
+    "@superflycss/component-test": "^3.3.23",
     "@superflycss/foundation": "^2.0.3",
     "@superflycss/utilities-colors": "^3.0.6",
     "@superflycss/utilities-fonts": "^3.4.0",
