@@ -35,6 +35,6 @@
   },
   "dependencies": {
     "@superflycss/variables-colors": "^3.0.4",
-    "@superflycss/variables-dimension": "^1.0.1"
+    "@superflycss/variables-dimension": "^2.0.2"
   }
 }
