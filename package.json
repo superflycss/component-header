@@ -1,0 +1,42 @@
+{
+  "name": "@superflycss/component-header",
+  "version": "2.1.2",
+  "description": "Header component",
+  "main": "index.css",
+  "scripts": {
+    "ig": "npm i-g @superflycss/cli && npm install -g @jsdevtools/version-bump-prompt && npm install -g npm-check-updates && npm install -g npm-install-peers",
+    "u": "ncu -u && npm i",
+    "b": "sfc b",
+    "d": "sfc d",
+    "p": "bump patch && sfc dist && cd dist && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superflycss/component-header.git"
+  },
+  "keywords": [
+    "css",
+    "superflycss",
+    "header",
+    "component"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superflycss/component-header/issues"
+  },
+  "homepage": "https://github.com/superflycss/component-header#readme",
+  "devDependencies": {
+    "@superflycss/component-body": "^1.0.1",
+    "@superflycss/component-display": "^1.0.2",
+    "@superflycss/component-test": "^2.0.32",
+    "@superflycss/foundation": "^2.0.4",
+    "@superflycss/utilities-fonts": "^3.4.0",
+    "@superflycss/utilities-format": "^1.1.1",
+    "@superflycss/utilities-layout": "^4.0.1"
+  },
+  "dependencies": {
+    "@superflycss/variables-dimension": "^1.0.1",
+    "@superflycss/utilities-colors": "^3.2.9"
+  }
+}

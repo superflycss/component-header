@@ -1,0 +1,169 @@
+@font-face {
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Helvetica Neue Light Italic"),local(HelveticaNeue-LightItalic),local("Helvetica Light Oblique"),local(Helvetica-LightOblique);
+}
+
+@font-face {
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Helvetica Neue Italic"),local(HelveticaNeue-Italic),local("Helvetica Oblique"),local(Helvetica-Oblique);
+}
+
+@font-face {
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Helvetica Neue Bold Italic"),local(HelveticaNeue-BoldItalic),local("Helvetica Bold Oblique"),local(Helvetica-BoldOblique);
+}
+
+@font-face {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Helvetica Neue Light"),local(HelveticaNeue-Light),local("Helvetica Light"),local(Helvetica-Light);
+}
+
+@font-face {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: local(HelveticaNeue),local(Helvetica);
+}
+
+@font-face {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Helvetica Neue Bold"),local(HelveticaNeue-Bold),local("Helvetica Bold"),local(Helvetica-Bold);
+}
+
+/** @define component  */
+
+/*! | superflycss/component-header |
+    | MIT License                |
+    | https://github.com/superflycss/component-header/blob/master/LICENSE.md */
+
+/* =======================================
+   NOTIFICATION COLORS
+
+   ABBREVIATIONS
+   tc:  text-color
+   bdc: border-color
+   bgc: background-color
+   ======================================= */
+
+/*! superflycss/variables-dimension | MIT License | https://github.com/superflycss/variables-dimension/blob/master/LICENSE.md */
+
+/*! bootstrap v4.0.0-alpha | MIT License | https://github.com/twbs/bootstrap/blob/master/LICENSE */
+
+/*
+=======================================
+ DIMENSION VARIABLES
+=======================================
+ 0:  Spacers.
+ 1:  Borders.
+ 2:  Z-Index
+ 3:  Default Media Breakpoints
+================================
+*/
+
+/* 0 */
+
+/* 1 */
+
+/* 2 */
+
+/* 3 */
+
+.Header {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+  background-color: transparent;
+}
+
+.Header--column {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+  background-color: transparent;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Header--shadow {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+  background-color: transparent;
+  box-shadow: 0 0 0.5rem rgba(0,0,0,.1);
+}
+
+.Header--shadow-column {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+  background-color: transparent;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 0.5rem rgba(0,0,0,.1);
+}
+
+.Header_link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #007bff;
+  border-radius: 4px;
+}
+
+.Header_link:visited {
+  text-decoration: none;
+  color: #007bff;
+  border-color: #007bff;
+  border-width: 3px;
+}
+
+.Header_link:hover {
+  text-decoration: none;
+  color: #007bff;
+  border-color: currentColor;
+  border-width: 3px;
+}
+
+.Header_link:active {
+  text-decoration: none;
+  color: #007bff;
+  border-color: #007bff;
+  border-width: 3px;
+}
+
+.u-sticky-header {
+    position: fixed !important;
+    z-index: 1030 !important;
+    top: 0px;
+}
