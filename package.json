@@ -1,10 +1,14 @@
 {
   "name": "@superflycss/component-header",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Header component",
   "main": "index.css",
   "scripts": {
-    "update": "ncu -a && npm i"
+    "ig": "npm i-g @superflycss/cli && npm install -g @jsdevtools/version-bump-prompt && npm install -g npm-check-updates && npm install -g npm-install-peers",
+    "u": "ncu -u && npm i",
+    "b": "sfc b",
+    "d": "sfc d",
+    "p": "bump patch && sfc dist && cd dist && npm publish"
   },
   "repository": {
     "type": "git",
@@ -26,15 +30,13 @@
     "@superflycss/component-body": "^1.0.1",
     "@superflycss/component-display": "^1.0.2",
     "@superflycss/component-test": "^2.0.32",
-    "@superflycss/foundation": "^2.0.3",
-    "@superflycss/utilities-colors": "^3.0.6",
+    "@superflycss/foundation": "^2.0.4",
     "@superflycss/utilities-fonts": "^3.4.0",
     "@superflycss/utilities-format": "^1.1.1",
-    "@superflycss/utilities-layout": "^4.0.1",
-    "npm-check-updates": "^2.14.2"
+    "@superflycss/utilities-layout": "^4.0.1"
   },
   "dependencies": {
-    "@superflycss/variables-colors": "^3.0.4",
-    "@superflycss/variables-dimension": "^1.0.1"
+    "@superflycss/variables-dimension": "^1.0.1",
+    "@superflycss/utilities-colors": "^3.2.9"
   }
 }

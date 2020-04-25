@@ -4,7 +4,7 @@
     | MIT License                |
     | https://github.com/superflycss/component-header/blob/master/LICENSE.md */
 
-@import "@superflycss/variables-colors";
+@import "@superflycss/utilities-colors/variables/notifications/";
 @import "@superflycss/variables-dimension";
 
 :root {
